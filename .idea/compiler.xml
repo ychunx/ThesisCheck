@@ -9,8 +9,5 @@
         <module name="ThesisCheck" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ThesisCheck" target="16" />
-    </bytecodeTargetLevel>
   </component>
 </project>
