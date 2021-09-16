@@ -1,6 +1,6 @@
 package utils;
 
-public class Hamming {
+public class Similarity {
 
     public static int getHammingDistance(String simHash1, String simHash2) {
 
