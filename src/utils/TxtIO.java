@@ -1,5 +1,6 @@
 package utils;
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 
 public class TxtIO {
 
@@ -11,11 +12,12 @@ public class TxtIO {
             // 获取输入字节流
             FileInputStream bs = new FileInputStream(file);
             // 将字节流解码为字符流
-            InputStreamReader cs = new InputStreamReader(bs, "UTF-8");
+            InputStreamReader cs = new InputStreamReader(bs, StandardCharsets.UTF_8);
             // 缓冲区，提高字符流读写的效率
             BufferedReader bf = new BufferedReader(cs);
             // 拼接字符串
             while ((strALine = bf.readLine()) != null) {
+                //noinspection StringConcatenationInLoop
                 str += strALine;
             }
             // 关闭资源

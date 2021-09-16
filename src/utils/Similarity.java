@@ -3,9 +3,11 @@ package utils;
 import com.hankcs.hanlp.HanLP;
 
 import java.math.BigInteger;
+import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.util.List;
 
+@SuppressWarnings("ALL")
 public class Similarity {
 
     public static String getHash(String str){
@@ -14,7 +16,7 @@ public class Similarity {
         try{
             MessageDigest ms = MessageDigest.getInstance("MD5");    // 提供 MD5 算法
             // 重置 ms 为初始状态； 二进制
-            return new BigInteger(1, ms.digest(str.getBytes("UTF-8"))).toString(2);
+            return new BigInteger(1, ms.digest(str.getBytes(StandardCharsets.UTF_8))).toString(2);
         }catch(Exception e){
             e.printStackTrace();
             return str;
@@ -63,8 +65,8 @@ public class Similarity {
 
         // 形成最终的 simhash 签名；每一位如果小于 0 则记为 0，大于 0 则记为 1
         String simHash = "";
-        for (int k = 0; k < v.length; k++) {
-            if (v[k] <= 0) {
+        for (int j : v) {
+            if (j <= 0) {
                 simHash += "0";
             } else {
                 simHash += "1";
@@ -94,6 +96,8 @@ public class Similarity {
         String simHash1 = getSimHash(str1);
 
         // 获取海明距离
+        assert simHash0 != null;
+        assert simHash1 != null;
         int distance = getHammingDistance(simHash0, simHash1);
         // 通过海明距离计算出相似度
         return 0.01 * (100 - distance * 100 / 128);
