@@ -11,26 +11,14 @@
   <component name="ChangeListManager">
     <list default="true" id="c06a5eb2-fe1c-47d6-85e7-1410e182ef7f" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ThesisCheck_jar/ThesisCheck.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/txtIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/txtIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/txtIOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/txtIOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ThesisCheck-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/TxtIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/TxtIO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Main.mainTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Main.mainTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Utils.ruleOutShortTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Utils.similarityTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Utils.txtIOTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Utils.ruleOutShortTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Utils.similarityTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Utils.txtIOTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/txtIOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/txtIOTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testDocumentation/ans.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testDocumentation/ans.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testDocumentation/ansOrigToAddTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testDocumentation/ansOrigToAddTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testDocumentation/ansOrigToAll.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testDocumentation/ansOrigToAll.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testDocumentation/ansOrigToDelTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testDocumentation/ansOrigToDelTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testDocumentation/ansOrigToDis10Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testDocumentation/ansOrigToDis10Test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testDocumentation/ansOrigToDis15Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testDocumentation/ansOrigToDis15Test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testDocumentation/ansOrigToDis1Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testDocumentation/ansOrigToDis1Test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testDocumentation/ansOrigToOrigTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testDocumentation/ansOrigToOrigTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +60,20 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.txtIOTest">
+  <component name="RunManager" selected="应用程序.mainCheck">
+    <configuration name="mainCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.mainCheck" />
+      <module name="ThesisCheck" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThesisCheck" />
       <extension name="coverage">
@@ -88,34 +89,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mainTest.origToAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ruleOutShortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThesisCheck" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.*" />
+          <option name="PATTERN" value="Utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Main" />
-      <option name="MAIN_CLASS_NAME" value="Main.mainTest" />
-      <option name="METHOD_NAME" value="origToAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mainTest.origToAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ThesisCheck" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Main" />
-      <option name="MAIN_CLASS_NAME" value="Main.mainTest" />
-      <option name="METHOD_NAME" value="origToAll" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Utils" />
+      <option name="MAIN_CLASS_NAME" value="Utils.ruleOutShortTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,16 +137,16 @@
     <list>
       <item itemvalue="JUnit.similarityTest" />
       <item itemvalue="JUnit.mainTest" />
-      <item itemvalue="JUnit.mainTest.origToAdd" />
-      <item itemvalue="JUnit.mainTest.origToAll" />
       <item itemvalue="JUnit.txtIOTest" />
+      <item itemvalue="JUnit.ruleOutShortTest" />
+      <item itemvalue="应用程序.mainCheck" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.txtIOTest" />
+        <item itemvalue="应用程序.mainCheck" />
+        <item itemvalue="JUnit.ruleOutShortTest" />
         <item itemvalue="JUnit.mainTest" />
-        <item itemvalue="JUnit.mainTest.origToAll" />
-        <item itemvalue="JUnit.mainTest.origToAdd" />
+        <item itemvalue="JUnit.txtIOTest" />
         <item itemvalue="JUnit.similarityTest" />
       </list>
     </recent_temporary>
@@ -197,10 +181,10 @@
     <SUITE FILE_PATH="coverage/ThesisCheck$mainCheck.ic" NAME="mainCheck 覆盖结果" MODIFIED="1631867506676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Main.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/ThesisCheck$mainTest.ic" NAME="mainTest 覆盖结果" MODIFIED="1631871156118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/ThesisCheck$mainTest.ic" NAME="mainTest 覆盖结果" MODIFIED="1631886634394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Main.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/ThesisCheck$similarityTest.ic" NAME="similarityTest 覆盖结果" MODIFIED="1631870920597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/ThesisCheck$similarityTest.ic" NAME="similarityTest 覆盖结果" MODIFIED="1631886529239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Utils.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/ThesisCheck$mainTest_origToOrig.ic" NAME="mainTest.origToOrig 覆盖结果" MODIFIED="1631864979381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -212,13 +196,13 @@
     <SUITE FILE_PATH="coverage/ThesisCheck$mainTest_origToAll.ic" NAME="mainTest.origToAll 覆盖结果" MODIFIED="1631871128187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Main.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/ThesisCheck$ruleOutShortTest.ic" NAME="ruleOutShortTest 覆盖结果" MODIFIED="1631865531871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Utils.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/ThesisCheck$similarityTest_getSimilarityTest.ic" NAME="similarityTest.getSimilarityTest 覆盖结果" MODIFIED="1631870864814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Utils.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/ThesisCheck$txtIOTest.ic" NAME="txtIOTest 覆盖结果" MODIFIED="1631886031294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/ThesisCheck$ruleOutShortTest.ic" NAME="ruleOutShortTest 覆盖结果" MODIFIED="1631887768348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Utils.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ThesisCheck$txtIOTest.ic" NAME="txtIOTest 覆盖结果" MODIFIED="1631886568355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Utils.*</FILTER>
     </SUITE>
   </component>
