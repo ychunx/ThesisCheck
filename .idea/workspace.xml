@@ -60,20 +60,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="应用程序.mainCheck">
-    <configuration name="mainCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main.mainCheck" />
-      <module name="ThesisCheck" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.mainTest">
     <configuration name="mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThesisCheck" />
       <extension name="coverage">
@@ -85,6 +72,20 @@
       <option name="PACKAGE_NAME" value="Main" />
       <option name="MAIN_CLASS_NAME" value="Main.mainTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mainTest,origToDel 和其他 4 个" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThesisCheck" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="Main.mainTest,origToDel" />
+        <pattern testClass="Main.mainTest,origToDis1" />
+        <pattern testClass="Main.mainTest,origToDis10" />
+        <pattern testClass="Main.mainTest,origToDis15" />
+        <pattern testClass="Main.mainTest,origToAll" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,19 +136,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.similarityTest" />
       <item itemvalue="JUnit.mainTest" />
-      <item itemvalue="JUnit.txtIOTest" />
       <item itemvalue="JUnit.ruleOutShortTest" />
-      <item itemvalue="应用程序.mainCheck" />
+      <item itemvalue="JUnit.mainTest,origToDel 和其他 4 个" />
+      <item itemvalue="JUnit.similarityTest" />
+      <item itemvalue="JUnit.txtIOTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.mainCheck" />
-        <item itemvalue="JUnit.ruleOutShortTest" />
         <item itemvalue="JUnit.mainTest" />
-        <item itemvalue="JUnit.txtIOTest" />
         <item itemvalue="JUnit.similarityTest" />
+        <item itemvalue="JUnit.txtIOTest" />
+        <item itemvalue="JUnit.ruleOutShortTest" />
+        <item itemvalue="JUnit.mainTest,origToDel 和其他 4 个" />
       </list>
     </recent_temporary>
   </component>
@@ -178,13 +179,14 @@
     <SUITE FILE_PATH="coverage/ThesisCheck$mainTest_origToAdd.ic" NAME="mainTest.origToAdd 覆盖结果" MODIFIED="1631871023149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Main.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/ThesisCheck$mainTest_origToDel__4_.ic" NAME="mainTest,origToDel 和其他 4 个 覆盖结果" MODIFIED="1631891359915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ThesisCheck$mainCheck.ic" NAME="mainCheck 覆盖结果" MODIFIED="1631867506676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Main.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/ThesisCheck$mainTest.ic" NAME="mainTest 覆盖结果" MODIFIED="1631886634394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/ThesisCheck$mainTest.ic" NAME="mainTest 覆盖结果" MODIFIED="1631891914480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Main.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/ThesisCheck$similarityTest.ic" NAME="similarityTest 覆盖结果" MODIFIED="1631886529239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/ThesisCheck$similarityTest.ic" NAME="similarityTest 覆盖结果" MODIFIED="1631891853488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Utils.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/ThesisCheck$mainTest_origToOrig.ic" NAME="mainTest.origToOrig 覆盖结果" MODIFIED="1631864979381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -199,10 +201,10 @@
     <SUITE FILE_PATH="coverage/ThesisCheck$similarityTest_getSimilarityTest.ic" NAME="similarityTest.getSimilarityTest 覆盖结果" MODIFIED="1631870864814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Utils.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/ThesisCheck$ruleOutShortTest.ic" NAME="ruleOutShortTest 覆盖结果" MODIFIED="1631887768348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/ThesisCheck$ruleOutShortTest.ic" NAME="ruleOutShortTest 覆盖结果" MODIFIED="1631891425790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Utils.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/ThesisCheck$txtIOTest.ic" NAME="txtIOTest 覆盖结果" MODIFIED="1631886568355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/ThesisCheck$txtIOTest.ic" NAME="txtIOTest 覆盖结果" MODIFIED="1631891792359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Utils.*</FILTER>
     </SUITE>
   </component>
