@@ -11,21 +11,26 @@
   <component name="ChangeListManager">
     <list default="true" id="c06a5eb2-fe1c-47d6-85e7-1410e182ef7f" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/ruleOutShort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/ruleOutShort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/similarity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/similarity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ThesisCheck_jar/ThesisCheck.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ThesisCheck_jar/ThesisCheck.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/releases/ThesisCheck.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Main/mainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Main/mainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/similarityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/similarityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/txtIOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/txtIOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main/mainCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/RuleOutShort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/Similarity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/TxtIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Main/mainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/ruleOutShortTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/similarityTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/txtIOTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ThesisCheck-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ThesisCheck-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Main.mainTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Main.mainTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Main.mainTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Main.mainTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Utils.similarityTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Utils.similarityTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Utils.txtIOTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Utils.txtIOTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Utils.similarityTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Utils.similarityTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Utils.txtIOTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Utils.txtIOTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Main/mainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Main/mainTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testDocumentation/ans.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testDocumentation/ans.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testDocumentation/ansAll.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testDocumentation/ansOrigAndAddTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testDocumentation/ansOrigAndDelTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testDocumentation/ansOrigAndDis10Test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testDocumentation/ansOrigAndDis15Test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testDocumentation/ansOrigAndDis1Test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testDocumentation/ansOrigAndOrigTest.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="Main.mainTest" time="9.013" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="Main.mainTest" time="12.751" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.2.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -59,11 +59,11 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Main.mainTest" name="origToAdd" time="0.953"/>
-  <testcase classname="Main.mainTest" name="origToAll" time="4.67"/>
-  <testcase classname="Main.mainTest" name="origToDel" time="0.719"/>
-  <testcase classname="Main.mainTest" name="origToDis10" time="0.734"/>
-  <testcase classname="Main.mainTest" name="origToDis15" time="0.719"/>
-  <testcase classname="Main.mainTest" name="origToDis1" time="0.937"/>
-  <testcase classname="Main.mainTest" name="origToOrig" time="0.281"/>
+  <testcase classname="Main.mainTest" name="origToAdd" time="0.937"/>
+  <testcase classname="Main.mainTest" name="origToAll" time="6.608"/>
+  <testcase classname="Main.mainTest" name="origToDel" time="1.156"/>
+  <testcase classname="Main.mainTest" name="origToDis10" time="1.203"/>
+  <testcase classname="Main.mainTest" name="origToDis15" time="1.113"/>
+  <testcase classname="Main.mainTest" name="origToDis1" time="1.25"/>
+  <testcase classname="Main.mainTest" name="origToOrig" time="0.484"/>
 </testsuite>
