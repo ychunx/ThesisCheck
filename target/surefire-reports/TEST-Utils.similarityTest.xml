@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="Utils.similarityTest" time="1.655" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="Utils.similarityTest" time="1.218" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.2.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -61,7 +61,7 @@
   </properties>
   <testcase classname="Utils.similarityTest" name="getHashTest" time="0"/>
   <testcase classname="Utils.similarityTest" name="getHammingDistanceFailTest" time="0"/>
-  <testcase classname="Utils.similarityTest" name="getSimilarityTest" time="0.953"/>
-  <testcase classname="Utils.similarityTest" name="getSimHashTest" time="0.234"/>
-  <testcase classname="Utils.similarityTest" name="getHammingDistanceTest" time="0.468"/>
+  <testcase classname="Utils.similarityTest" name="getSimilarityTest" time="0.688"/>
+  <testcase classname="Utils.similarityTest" name="getSimHashTest" time="0.156"/>
+  <testcase classname="Utils.similarityTest" name="getHammingDistanceTest" time="0.374"/>
 </testsuite>

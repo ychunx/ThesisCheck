@@ -31,7 +31,7 @@ public class txtIOTest {
     public void writeFail() {
         double[] elem = {0.11, 0.33, 0.55, 0.77, 0.99};
         for (double v : elem) {
-            txtIO.writeTxt(v, "C:/Users/ychun/Desktop/电脑文件/大三上/软件工程/ThesisCheck/testDocumentation/ans.txt");
+            txtIO.writeTxt(v, "ychun:/Desktop/电脑文件/大三上/软件工程/ThesisCheck/testDocumentation/ans.txt");
         }
     }
 }

@@ -11,26 +11,26 @@
   <component name="ChangeListManager">
     <list default="true" id="c06a5eb2-fe1c-47d6-85e7-1410e182ef7f" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ThesisCheck_jar/ThesisCheck.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ThesisCheck_jar/ThesisCheck.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/releases/ThesisCheck.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Main/mainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Main/mainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ThesisCheck-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ThesisCheck-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Main.mainTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Main.mainTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Main.mainTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Main.mainTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Utils.similarityTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Utils.similarityTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Utils.txtIOTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Utils.txtIOTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Utils.similarityTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Utils.similarityTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Utils.txtIOTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Utils.txtIOTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Main/mainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Main/mainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ThesisCheck_jar/ThesisCheck.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/txtIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/txtIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/txtIOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/txtIOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ThesisCheck-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/TxtIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/TxtIO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Main.mainTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Main.mainTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Utils.ruleOutShortTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Utils.similarityTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Utils.txtIOTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Utils.ruleOutShortTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Utils.similarityTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Utils.txtIOTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/txtIOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/txtIOTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testDocumentation/ans.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testDocumentation/ans.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testDocumentation/ansAll.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testDocumentation/ansOrigAndAddTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testDocumentation/ansOrigAndDelTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testDocumentation/ansOrigAndDis10Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testDocumentation/ansOrigAndDis15Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testDocumentation/ansOrigAndDis1Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testDocumentation/ansOrigAndOrigTest.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.mainTest">
+  <component name="RunManager" selected="JUnit.txtIOTest">
     <configuration name="mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThesisCheck" />
       <extension name="coverage">
@@ -135,7 +135,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="similarityTest.getSimilarityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="txtIOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThesisCheck" />
       <extension name="coverage">
         <pattern>
@@ -144,27 +144,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Utils" />
-      <option name="MAIN_CLASS_NAME" value="Utils.similarityTest" />
-      <option name="METHOD_NAME" value="getSimilarityTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="Utils.txtIOTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="JUnit.similarityTest" />
-      <item itemvalue="JUnit.similarityTest.getSimilarityTest" />
       <item itemvalue="JUnit.mainTest" />
       <item itemvalue="JUnit.mainTest.origToAdd" />
       <item itemvalue="JUnit.mainTest.origToAll" />
+      <item itemvalue="JUnit.txtIOTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.txtIOTest" />
         <item itemvalue="JUnit.mainTest" />
         <item itemvalue="JUnit.mainTest.origToAll" />
         <item itemvalue="JUnit.mainTest.origToAdd" />
         <item itemvalue="JUnit.similarityTest" />
-        <item itemvalue="JUnit.similarityTest.getSimilarityTest" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +218,7 @@
     <SUITE FILE_PATH="coverage/ThesisCheck$similarityTest_getSimilarityTest.ic" NAME="similarityTest.getSimilarityTest 覆盖结果" MODIFIED="1631870864814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Utils.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/ThesisCheck$txtIOTest.ic" NAME="txtIOTest 覆盖结果" MODIFIED="1631865520692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/ThesisCheck$txtIOTest.ic" NAME="txtIOTest 覆盖结果" MODIFIED="1631886031294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Utils.*</FILTER>
     </SUITE>
   </component>

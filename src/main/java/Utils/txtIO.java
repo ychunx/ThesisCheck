@@ -38,7 +38,7 @@ public class txtIO {
             FileWriter fw = new FileWriter(file, true);     // true 为追加
             // 如果结果大于三个字符则打印四个字符，如果不超过三个字符则全部打印
             // 即只打印到小数点两位
-            fw.write(str.substring(0 , (str.length() > 3 ? 4 : str.length())) + "\r\n");
+            fw.write("相似度为：" + str.substring(0 , (str.length() > 3 ? 4 : str.length())) + "\r\n");
             // 关闭资源
             fw.close();
         } catch (IOException e) {
