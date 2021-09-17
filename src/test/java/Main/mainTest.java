@@ -13,7 +13,7 @@ public class mainTest {
         String str1 = txtIO.readTxt("C:/Users/ychun/Desktop/电脑文件/大三上/软件工程/ThesisCheck/testDocumentation/orig.txt");
         String ansFileName = "C:/Users/ychun/Desktop/电脑文件/大三上/软件工程/ThesisCheck/testDocumentation/ansOrigAndOrigTest.txt";
 
-        double ans = similarity.getSimilarity(similarity.getSimHash(str0), similarity.getSimHash(str1));
+        double ans = similarity.getSimilarity(str0, str1);
         txtIO.writeTxt(ans, ansFileName);
     }
 
@@ -23,7 +23,7 @@ public class mainTest {
         String str1 = txtIO.readTxt("C:/Users/ychun/Desktop/电脑文件/大三上/软件工程/ThesisCheck/testDocumentation/orig_0.8_add.txt");
         String ansFileName = "C:/Users/ychun/Desktop/电脑文件/大三上/软件工程/ThesisCheck/testDocumentation/ansOrigAndAddTest.txt";
 
-        double ans = similarity.getSimilarity(similarity.getSimHash(str0), similarity.getSimHash(str1));
+        double ans = similarity.getSimilarity(str0, str1);
         txtIO.writeTxt(ans, ansFileName);
     }
 
@@ -33,7 +33,7 @@ public class mainTest {
         String str1 = txtIO.readTxt("C:/Users/ychun/Desktop/电脑文件/大三上/软件工程/ThesisCheck/testDocumentation/orig_0.8_del.txt");
         String ansFileName = "C:/Users/ychun/Desktop/电脑文件/大三上/软件工程/ThesisCheck/testDocumentation/ansOrigAndDelTest.txt";
 
-        double ans = similarity.getSimilarity(similarity.getSimHash(str0), similarity.getSimHash(str1));
+        double ans = similarity.getSimilarity(str0, str1);
         txtIO.writeTxt(ans, ansFileName);
     }
 
@@ -43,7 +43,7 @@ public class mainTest {
         String str1 = txtIO.readTxt("C:/Users/ychun/Desktop/电脑文件/大三上/软件工程/ThesisCheck/testDocumentation/orig_0.8_dis_1.txt");
         String ansFileName = "C:/Users/ychun/Desktop/电脑文件/大三上/软件工程/ThesisCheck/testDocumentation/ansOrigAndDis1Test.txt";
 
-        double ans = similarity.getSimilarity(similarity.getSimHash(str0), similarity.getSimHash(str1));
+        double ans = similarity.getSimilarity(str0, str1);
         txtIO.writeTxt(ans, ansFileName);
     }
 
@@ -53,7 +53,7 @@ public class mainTest {
         String str1 = txtIO.readTxt("C:/Users/ychun/Desktop/电脑文件/大三上/软件工程/ThesisCheck/testDocumentation/orig_0.8_dis_10.txt");
         String ansFileName = "C:/Users/ychun/Desktop/电脑文件/大三上/软件工程/ThesisCheck/testDocumentation/ansOrigAndDis10Test.txt";
 
-        double ans = similarity.getSimilarity(similarity.getSimHash(str0), similarity.getSimHash(str1));
+        double ans = similarity.getSimilarity(str0, str1);
         txtIO.writeTxt(ans, ansFileName);
     }
 
@@ -63,7 +63,7 @@ public class mainTest {
         String str1 = txtIO.readTxt("C:/Users/ychun/Desktop/电脑文件/大三上/软件工程/ThesisCheck/testDocumentation/orig_0.8_dis_15.txt");
         String ansFileName = "C:/Users/ychun/Desktop/电脑文件/大三上/软件工程/ThesisCheck/testDocumentation/ansOrigAndDis15Test.txt";
 
-        double ans = similarity.getSimilarity(similarity.getSimHash(str0), similarity.getSimHash(str1));
+        double ans = similarity.getSimilarity(str0, str1);
         txtIO.writeTxt(ans,ansFileName);
     }
 
@@ -79,7 +79,7 @@ public class mainTest {
         String ansFileName = "C:/Users/ychun/Desktop/电脑文件/大三上/软件工程/ThesisCheck/testDocumentation/ansAll.txt";
 
         for(int i = 0; i <= 5; i++){
-            double ans = similarity.getSimilarity(similarity.getSimHash(str[0]), similarity.getSimHash(str[i]));
+            double ans = similarity.getSimilarity(str[0], str[i]);
             txtIO.writeTxt(ans, ansFileName);
         }
     }

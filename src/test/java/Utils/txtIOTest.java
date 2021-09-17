@@ -2,6 +2,7 @@ package Utils;
 
 import org.junit.Test;
 
+@SuppressWarnings("ALL")
 public class txtIOTest {
 
     @Test   // 正常读取
@@ -16,8 +17,8 @@ public class txtIOTest {
     @Test   // 正常写入
     public void writeTest() {
         double[] elem = {0.11, 0.33, 0.55, 0.77, 0.99};
-        for (int i = 0; i < elem.length; i++) {
-            txtIO.writeTxt(elem[i], "C:/Users/ychun/Desktop/电脑文件/大三上/软件工程/ThesisCheck/testDocumentation/ans.txt");
+        for (double v : elem) {
+            txtIO.writeTxt(v, "C:/Users/ychun/Desktop/电脑文件/大三上/软件工程/ThesisCheck/testDocumentation/ans.txt");
         }
     }
 
@@ -29,8 +30,8 @@ public class txtIOTest {
     @Test   // 路径错误，写入失败
     public void writeFail() {
         double[] elem = {0.11, 0.33, 0.55, 0.77, 0.99};
-        for (int i = 0; i < elem.length; i++) {
-            txtIO.writeTxt(elem[i], "C:/Users/ychun/Desktop/电脑文件/大三上/软件工程/ThesisCheck/testDocumentation/ans.txt");
+        for (double v : elem) {
+            txtIO.writeTxt(v, "C:/Users/ychun/Desktop/电脑文件/大三上/软件工程/ThesisCheck/testDocumentation/ans.txt");
         }
     }
 }

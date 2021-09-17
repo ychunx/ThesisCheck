@@ -2,6 +2,7 @@ package Utils;
 
 import org.junit.Test;
 
+@SuppressWarnings("ALL")
 public class similarityTest {
 
     @Test
@@ -35,15 +36,17 @@ public class similarityTest {
         String str0 = txtIO.readTxt("C:/Users/ychun/Desktop/电脑文件/大三上/软件工程/ThesisCheck/testDocumentation/orig.txt");
         String str1 = txtIO.readTxt("C:/Users/ychun/Desktop/电脑文件/大三上/软件工程/ThesisCheck/testDocumentation/orig_0.8_add.txt");
 
-        double Similarity = similarity.getSimilarity(similarity.getSimHash(str0), similarity.getSimHash(str1));
+        int distance = similarity.getHammingDistance(similarity.getSimHash(str0), similarity.getSimHash(str1));
+        double Similarity = similarity.getSimilarity(str0, str1);
 
+        System.out.println("str0和str1的汉明距离: " + distance);
         System.out.println("str0和str1的相似度:" + Similarity);
     }
 
     @Test   // 测试 str0.length()!=str1.length() 的情况
     public void getHammingDistanceFailTest() {
-        String str0 = "10101010";
-        String str1 = "1010101";
+        String str0 = "10001101011";
+        String str1 = "1000010001";
 
         System.out.println(similarity.getHammingDistance(str0, str1));
     }

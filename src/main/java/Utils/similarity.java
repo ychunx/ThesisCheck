@@ -75,14 +75,14 @@ public class similarity {
         return simHash;
     }
 
-    public static int getHammingDistance(String simHash1, String simHash2) {
+    public static int getHammingDistance(String simHash0, String simHash1) {
 
         int distance = 0;
-        if (simHash1.length() != simHash2.length()) {
+        if (simHash0.length() != simHash1.length()) {
             distance = -1;  // 出错，返回-1
         } else {
-            for (int i = 0; i < simHash1.length(); i++) {
-                if (simHash1.charAt(i) != simHash2.charAt(i)) {     // 指定位符获取
+            for (int i = 0; i < simHash0.length(); i++) {
+                if (simHash0.charAt(i) != simHash1.charAt(i)) {     // 指定位符获取
                     distance++;     // 比较每一位，如果不同则距离加一
                 }
             }
@@ -96,8 +96,6 @@ public class similarity {
         String simHash1 = getSimHash(str1);
 
         // 获取海明距离
-        assert simHash0 != null;
-        assert simHash1 != null;
         int distance = getHammingDistance(simHash0, simHash1);
         // 通过海明距离计算出相似度
         return 0.01 * (100 - distance * 100 / 128);

@@ -1,5 +1,6 @@
 package Utils;
 
+@SuppressWarnings("ALL")
 public class ruleOutShort extends Exception {
 
     public ruleOutShort() {

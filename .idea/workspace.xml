@@ -1,34 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ThesisCheck:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c06a5eb2-fe1c-47d6-85e7-1410e182ef7f" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ThesisCheck_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ThesisCheck_jar2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_hankcs_hanlp_portable_1_5_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThesisCheck.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ThesisCheck_jar/ThesisCheck.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/releases/ThesisCheck.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CheckMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/RuleOutShort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Similarity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/TxtIO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ThesisCheck-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/CheckMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/RuleOutShort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/RuleOutShort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/Similarity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Similarity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/TxtIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/TxtIO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/ruleOutShort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/ruleOutShort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/similarity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/similarity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Main/mainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Main/mainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/similarityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/similarityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/txtIOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/txtIOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main/mainCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/RuleOutShort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Similarity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/TxtIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Main/mainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/ruleOutShortTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/similarityTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/txtIOTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testDocumentation/ans.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testDocumentation/ans.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +42,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
+  </component>
   <component name="ProjectId" id="1yE077nLCim39SJP27ON1oBPe9s" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -60,27 +60,14 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../Program Files/Java/junit-4.13.2.jar" />
-    <property name="project.structure.last.edited" value="全局库" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.ideaLibSources/junit-4.13.2-sources.jar" />
+    <property name="project.structure.last.edited" value="工件" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="JUnit.mainTest">
-    <configuration name="mainCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main.mainCheck" />
-      <module name="ThesisCheck" />
-      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/testDocumentation/orig.txt $PROJECT_DIR$/testDocumentation/orig_0.8_add.txt $PROJECT_DIR$/testDocumentation/ans.txt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThesisCheck" />
       <extension name="coverage">
@@ -96,10 +83,83 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="mainTest.origToAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThesisCheck" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="Main.mainTest" />
+      <option name="METHOD_NAME" value="origToAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mainTest.origToAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThesisCheck" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="Main.mainTest" />
+      <option name="METHOD_NAME" value="origToAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="similarityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThesisCheck" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Utils" />
+      <option name="MAIN_CLASS_NAME" value="Utils.similarityTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="similarityTest.getSimilarityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThesisCheck" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Utils" />
+      <option name="MAIN_CLASS_NAME" value="Utils.similarityTest" />
+      <option name="METHOD_NAME" value="getSimilarityTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.similarityTest" />
+      <item itemvalue="JUnit.similarityTest.getSimilarityTest" />
+      <item itemvalue="JUnit.mainTest" />
+      <item itemvalue="JUnit.mainTest.origToAdd" />
+      <item itemvalue="JUnit.mainTest.origToAll" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.mainTest" />
-        <item itemvalue="应用程序.mainCheck" />
+        <item itemvalue="JUnit.mainTest.origToAll" />
+        <item itemvalue="JUnit.mainTest.origToAdd" />
+        <item itemvalue="JUnit.similarityTest" />
+        <item itemvalue="JUnit.similarityTest.getSimilarityTest" />
       </list>
     </recent_temporary>
   </component>
@@ -125,5 +185,37 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ThesisCheck$mainTest_origToAdd.ic" NAME="mainTest.origToAdd 覆盖结果" MODIFIED="1631871023149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Main.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ThesisCheck$mainCheck.ic" NAME="mainCheck 覆盖结果" MODIFIED="1631867506676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Main.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ThesisCheck$mainTest.ic" NAME="mainTest 覆盖结果" MODIFIED="1631871156118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Main.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ThesisCheck$similarityTest.ic" NAME="similarityTest 覆盖结果" MODIFIED="1631870920597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Utils.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ThesisCheck$mainTest_origToOrig.ic" NAME="mainTest.origToOrig 覆盖结果" MODIFIED="1631864979381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Main.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ThesisCheck$similarityTest_getHammingDistanceFailTest.ic" NAME="similarityTest.getHammingDistanceFailTest 覆盖结果" MODIFIED="1631870257013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Utils.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ThesisCheck$mainTest_origToAll.ic" NAME="mainTest.origToAll 覆盖结果" MODIFIED="1631871128187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Main.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ThesisCheck$ruleOutShortTest.ic" NAME="ruleOutShortTest 覆盖结果" MODIFIED="1631865531871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Utils.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ThesisCheck$similarityTest_getSimilarityTest.ic" NAME="similarityTest.getSimilarityTest 覆盖结果" MODIFIED="1631870864814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Utils.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ThesisCheck$txtIOTest.ic" NAME="txtIOTest 覆盖结果" MODIFIED="1631865520692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Utils.*</FILTER>
+    </SUITE>
   </component>
 </project>
