@@ -1,4 +1,5 @@
-# 第一次个人编程作业: Thesis Duplicate Check
+# 一个软件工程作业
+## 第一次个人编程作业: Thesis Duplicate Check
 
 >题目：论文查重
 >
